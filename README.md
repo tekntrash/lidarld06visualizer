@@ -10,5 +10,5 @@ The visualization is done through the matplotlib library. The code is written in
 
 **TODO**
 
-It is theoretically possible to visualize the data using the popular RVIZ tool without having to create packages which usually fails. For that, all is required is to install any ROS version (esaier with apt-get) and then run apt install ros-(the_ros_version_you_just_installed)-rviz2. Still, the topic protocol is challenging, also requiring transformations in order to make the dots appear in a logical fashion. Stay tuned!
+It is theoretically possible to visualize the data using the popular RVIZ tool without having to install ROS, create packages which usually fails, etc. Still, the topic protocol is challenging, also requiring transformations in order to make the dots appear in a logical fashion. Stay tuned!
 
