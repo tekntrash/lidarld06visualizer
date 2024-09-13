@@ -10,5 +10,5 @@ The visualization is done through the matplotlib library. The code is written in
 
 **TODO**
 
-It is theoretically possible to visualize the data using the popular RVIZ tool without having to install ROS, create packages, etc. That would greatly help those who want to experiment with LIDAR without having to install ROS (which changes drastically between versions 1 and 2 for example), running colcon build (which usually fails), etc. For that, all is required isto run apt install ros-humble-rviz2. Still, the topic protocol is  challenging, also requiring transformations in order to make the dots appear in a logical fashion. Stay tuned!
+It is theoretically possible to visualize the data using the popular RVIZ tool without having to create packages which usually fails. For that, all is required is to install any ROS version (esaier with apt-get) and then run apt install ros-(the_ros_version_you_just_installed)-rviz2. Still, the topic protocol is challenging, also requiring transformations in order to make the dots appear in a logical fashion. Stay tuned!
 
