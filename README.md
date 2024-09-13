@@ -8,6 +8,7 @@ Still, the manufacturer's repo is written in C and depends on ROS to run, thereb
 
 The visualization is done through the matplotlib library. The code is written in python and tested on an Nvidia Jetson AGX Orin under Ubuntu 22.05 Jammy, but should run with Rasperry also. To that, type python -r requirements.txt to install the required libraries, and then simply type "python visualizer.py" and you will see an image like the one included here
 
-TODO
+**TODO**
+
 It is theoretically possible to visualize the data using the popular RVIZ tool without having to install ROS, create packages, etc. That would greatly help those who want to experiment with LIDAR without having to install ROS (which changes drastically between versions 1 and 2 for example), running colcon build (which usually fails), etc. For that, all is required isto run apt install ros-humble-rviz2. Still, the topic protocol is  challenging, also requiring transformations in order to make the dots appear in a logical fashion. Stay tuned!
 
